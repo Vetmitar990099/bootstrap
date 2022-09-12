@@ -1,10 +1,7 @@
 body {
     color: aliceblue;
-    background-color: black;
     padding: 0px;
     margin: 0px;
-    background-image: url(Images/istockphoto-1313854295-612x612.jpg);
-    background-size: 99vw 99vh;
     padding-top: 1vh;
     background-repeat: no-repeat;
 }
@@ -50,4 +47,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: auto;
+}
+#image {
+    background-image: url("images/istockphoto-1313854295-612x612.jpg");
+    background-size: 99vw 99vh;
 }
