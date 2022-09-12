@@ -1,0 +1,53 @@
+body {
+    color: aliceblue;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/Images/istockphoto-1313854295-612x612.jpg);
+    background-size: 99vw 99vh;
+    padding-top: 1vh;
+    background-repeat: no-repeat;
+}
+#purpleborder {
+    border-radius: 20px;
+    background-color: purple;
+    text-align: center;
+    padding: 1vh;
+}
+#purple {
+    color: purple;
+}
+#title {
+    font-size: 10vh;
+    margin: auto;
+}
+.bottom {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+.padding {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+#purpleborder:hover {
+    background-color: aliceblue;
+    color: black;
+}
+.main {
+    height: 25vh;
+}
+.game {
+    font-size: 3vh;
+}
+#aligner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nav {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
